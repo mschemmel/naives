@@ -1,2 +1,2 @@
 # naives
-A collection of programming languages addressing the naive matching problem
+A collection of scripts of different programming languages addressing the naive matching problem
