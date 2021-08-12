@@ -3,7 +3,8 @@ A collection of scripts of different programming languages addressing the naive 
 
 Input:
 ---
-
+| Var | Description |
+| ---- | ----------- |
 |Sequence: | AGCATCGATCGATCGATCGATCGATTGTCGATCGATCGATGT |
 |Pattern: | AGT |
 |Allowed mismatches: | 1 |
