@@ -9,6 +9,6 @@ Input:
 |Pattern: | AGT |
 |Allowed mismatches: | 1 |
 
-Result - Occurences:
+Output - Occurences:
 ---
 0,23,25,39
