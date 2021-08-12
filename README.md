@@ -3,11 +3,10 @@ A collection of scripts of different programming languages addressing the naive 
 
 Input:
 ---
-sequence: AGCATCGATCGATCGATCGATCGATTGTCGATCGATCGATGT
 
-pattern:  AGT
-
-Allowed mismatches: 1
+|Sequence: | AGCATCGATCGATCGATCGATCGATTGTCGATCGATCGATGT |
+|Pattern: | AGT |
+|Allowed mismatches: | 1 |
 
 Result - Occurences:
 ---
