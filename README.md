@@ -4,9 +4,11 @@ A collection of scripts of different programming languages addressing the naive 
 Input:
 ---
 sequence: AGCATCGATCGATCGATCGATCGATTGTCGATCGATCGATGT
+
 pattern:  AGT
+
 Allowed mismatches: 1
 
-Result - Index of occurences:
+Result - Occurences:
 ---
 0,23,25,39
