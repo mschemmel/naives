@@ -1,5 +1,5 @@
 # naives
-A collection of scripts of different programming languages addressing the naive matching problem
+A collection of scripts of different programming languages addressing the naive matching problem inspired by [repo](https://github.com/geohot/mergesorts).
 
 Input:
 ---
