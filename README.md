@@ -1,6 +1,9 @@
 # naives
 A collection of scripts of different programming languages addressing the naive matching problem inspired by [this](https://github.com/geohot/mergesorts).
 
+
+<span style="color:blue">AGC</span>ATCGATCGATCGATCGATCGATTGTCGATCGATCGATGT
+
 Input:
 ---
 | Var | Description |
