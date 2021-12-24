@@ -1,7 +1,9 @@
 # naives
 A collection of scripts of different programming languages addressing the naive matching problem inspired by [this](https://github.com/geohot/mergesorts).
 
-
+<p align="center">
+<img src="principle.png">
+</p>
 
 Input:
 ---
