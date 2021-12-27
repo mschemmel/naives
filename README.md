@@ -27,7 +27,7 @@ Input:
 
 Output:
 ---
-Comma separated values of all occurences of pattern 'AGT' with one mismatch.
+Comma separated values of all occurences of pattern 'AGT' with one mismatch allowed.
 ```
 0,23,25,39
 ```
