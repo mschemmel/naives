@@ -21,5 +21,5 @@ naive <- function(ref, patt, thresh){
     }
     return(occ)
 }
-print(paste(naive(reference, pattern, 1),collapse = ","))
+print(paste(naive(reference, pattern, 1), collapse = ","))
 
