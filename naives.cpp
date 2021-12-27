@@ -4,11 +4,23 @@
 std::string reference = "AGCATCGATCGATCGATCGATCGATTGTCGATCGATCGATGT";
 std::string pattern = "AGT";
 
-std::vector<int> naives(std::string ref, std::string pattern, int threshold){
+std::string join(std::vector<int> &occ){
+	std::string s;
+	int i = 0, c = 0;
+	const std::string delimeter = ",";
+	while(i != occ.size() - 1){
+		s += std::to_string(occ[i]) + delimeter;
+		i += 1;
+	}
+	s += std::to_string(occ[i]);
+	return s;
+}
+
+std::vector<int> naives(std::string &ref, std::string &pattern, const int threshold){
 	std::vector<int> occ;
 	for(int i = 0; i < (ref.length() - pattern.length() + 1); i++){
-		int mismatch = 0;
 		bool match = true;
+		int mismatch = 0;
 		for(int j = 0; j < pattern.length(); j++){
 			if(ref[i+j] != pattern[j]){
 				mismatch += 1;
@@ -27,8 +39,6 @@ std::vector<int> naives(std::string ref, std::string pattern, int threshold){
 
 int main(){
 	std::vector<int> occurences = naives(reference, pattern, 1);
-	for(const int& i: occurences){
-		std::cout << i << "\n";
-	}
+	std::cout << join(occurences) << std::endl;
 	return 0;
 }
