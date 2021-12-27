@@ -3,13 +3,16 @@
 use strict;
 use warnings;
 
-sub occurences {
+my $reference = "AGCATCGATCGATCGATCGATCGATTGTCGATCGATCGATGT";
+my $pattern = "AGT";
+
+sub naive {
   my @occ;
-  my ($ref, $pattern, $threshold) = @_;
-  for(my $i = 0; $i < (length($ref) - length($pattern) + 1); $i++){
+  my ($ref, $patt, $threshold) = @_;
+  for(my $i = 0; $i < (length($ref) - length($patt) + 1); $i++){
     my $mismatch = 0;
     my $match = 1;
-    for(my $j = 0; $j < length($pattern); $j++){
+    for(my $j = 0; $j < length($patt); $j++){
       if(substr($ref,$i+$j,1) ne substr($pattern,$j,1)){
         $mismatch = $mismatch + 1;
         if($mismatch > $threshold){
@@ -25,6 +28,4 @@ sub occurences {
   return @occ;
 }
 
-my $t = "AGCATCGATCGATCGATCGATCGATTGTCGATCGATCGATGT";
-my $p = "AGT";
-print join(",",occurences($t, $p, 1)) . "\n";
+print join(",",naive($reference, $pattern, 1)) . "\n";
