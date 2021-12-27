@@ -19,6 +19,7 @@ Implementation of the naive matching problem in as many languages as possibly (p
 
 Input:
 ---
+| | Value |
 | ---- | ----------- |
 |Sequence: | AGCATCGATCGATCGATCGATCGATTGTCGATCGATCGATGT |
 |Pattern: | AGT |
