@@ -8,7 +8,7 @@ A collection of scripts of different programming languages addressing the naive 
 Background:
 ---
 Probably the most fundamental task in bioinformatics analyses consists in the challenge of solving the problem of string matching.
-Various approaches have been developed [link](https://en.wikipedia.org/wiki/String-searching_algorithm) and are widely used in modern bioinformatic tools.
+Various approaches have been [developed](https://en.wikipedia.org/wiki/String-searching_algorithm) and are widely used in modern bioinformatic tools.
 Since the amount of genomic data is continuously increasing, the demand for more and more efficient and powerful algorithms is growing. 
 <br>
 One of the most basic string matching algorithm is the naive matching algorithm, where a sliding window of length k is compared to the pattern of interest.
