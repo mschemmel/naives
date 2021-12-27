@@ -25,6 +25,9 @@ Input:
 |Pattern: | AGT |
 |Allowed mismatches: | 1 |
 
-Output - Occurences:
+Output:
 ---
+Comma separated values of all occurences of pattern 'AGT' with one mismatch.
+```
 0,23,25,39
+```
