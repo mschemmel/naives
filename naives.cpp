@@ -16,13 +16,13 @@ std::string join(std::vector<int> &occ){
 	return s;
 }
 
-std::vector<int> naives(std::string &ref, std::string &pattern, const int threshold){
+std::vector<int> naives(std::string &ref, std::string &patt, const int threshold){
 	std::vector<int> occ;
-	for(int i = 0; i < (ref.length() - pattern.length() + 1); i++){
+	for(int i = 0; i < (ref.length() - patt.length() + 1); i++){
 		bool match = true;
 		int mismatch = 0;
-		for(int j = 0; j < pattern.length(); j++){
-			if(ref[i+j] != pattern[j]){
+		for(int j = 0; j < patt.length(); j++){
+			if(ref[i+j] != patt[j]){
 				mismatch += 1;
 				if(mismatch > threshold){
 					match = false;
