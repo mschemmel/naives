@@ -20,8 +20,3 @@ reference = "AGCATCGATCGATCGATCGATCGATTGTCGATCGATCGATGT"
 pattern = "AGT"
 hits = map(str,naive(reference,pattern,1))
 print(",".join(hits))
-
-
-
-
-
