@@ -15,7 +15,6 @@ def naive(ref, pattern, threshold):
       occ.append(i)
   return occ
 
-
 reference = "AGCATCGATCGATCGATCGATCGATTGTCGATCGATCGATGT"
 pattern = "AGT"
 hits = map(str,naive(reference,pattern,1))
