@@ -18,7 +18,8 @@ def naive(ref, pattern, threshold):
 
 reference = "AGCATCGATCGATCGATCGATCGATTGTCGATCGATCGATGT"
 pattern = "AGT"
-print(naive(reference, pattern, 1))
+hits = map(str,naive(reference,pattern,1))
+print(",".join(hits))
 
 
 
