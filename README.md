@@ -16,6 +16,8 @@ One of the most basic string matching algorithm is the naive matching algorithm,
 Goal:
 ---
 Implementation of the naive matching problem in as many languages as possibly (primary) to compare them by efficiency and speed (secondary).
+<br>
+Improvements of already added languages are very welcome!
 
 Input:
 ---
