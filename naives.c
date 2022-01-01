@@ -29,4 +29,5 @@ void naive(const char *ref, const char *patt, const size_t thresh) {
 
 int main(void){
 	naive(reference, pattern, 1);
+	return 0;
 }
