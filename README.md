@@ -17,7 +17,7 @@ Goal:
 ---
 Implementation of the naive matching problem in as many languages as possibly (primary) to compare them by efficiency and speed (secondary).
 <br>
-Improvements of already added languages are very welcome!
+Improvements of already added languages are very welcome (please leave a note why its better)!
 
 Input:
 ---
