@@ -6,7 +6,7 @@ std::string pattern = "AGT";
 
 std::string join(std::vector<int> &occ){
 	std::string s;
-	int i = 0, c = 0;
+	unsigned int i = 0, c = 0;
 	const std::string delimeter = ",";
 	while(i != occ.size() - 1){
 		s += std::to_string(occ[i]) + delimeter;
@@ -16,11 +16,11 @@ std::string join(std::vector<int> &occ){
 	return s;
 }
 
-std::vector<int> naives(std::string &ref, std::string &patt, const int threshold){
+std::vector<int> naives(std::string &ref, std::string &patt, const unsigned int threshold){
 	std::vector<int> occ;
 	for(int i = 0; i < (ref.length() - patt.length() + 1); i++){
 		bool match = true;
-		int mismatch = 0;
+		unsigned int mismatch = 0;
 		for(int j = 0; j < patt.length(); j++){
 			if(ref[i+j] != patt[j]){
 				mismatch += 1;
